@@ -1,0 +1,22 @@
+.signin{
+    font-size: 22px;
+    background-color: #BC0000;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+.background{
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    height: 130vh; 
+    opacity: 1;
+    position: relative;
+    background-color:  rgb(236, 221, 221);
+}

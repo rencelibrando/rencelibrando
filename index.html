@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Earist Book Store</title>
+<link rel="shorcut icon" type="x-icon" href="logo ng 11.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/38741bd1fa.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="header.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:300px}
+</style>
+</head>
+<body>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-left-align w3-large w3-padding-small">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large ">Home</a>
+    <a href="#" class="w3-button w3-padding-large">Cart</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Products</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Orders</a>
+    <a href="login.html" class="w3-bar-item w3-button w3-padding-large w3-large w3=margin-top w3-right ">Login</a>
+    <a href="registration.html"class="w3-button w3-padding-large w3-large w3-right">Register</a>
+    </div>
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large;">Cart</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Product</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Orders</a>
+    <button href="login.html" class="w3-bar-item w3-button w3-padding-large w3-large w3=margin-top ">Login</button>
+    <a href="registration.html"class="w3-button w3-red w3-padding-large w3-large w3-right">Register</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center">
+  <h1 class="w3-margin w3-text-white w3-jumbo" style="font-weight: 900; font-family:'Times New Roman', Times, serif; border: 2px solid rgb(255, 255, 255); border-style: inset;border-width: 4px;border-radius: 15px;">EARIST ONLINE BOOK STORE</h1>
+  <p class="w3-xlarge w3-text-white" style="font-weight: bold; font-style: normal; font-family: 'Times New Roman', Times, serif;">Shop Now!</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 style="font-weight: bolder;font-family: 'Times New Roman', Times, serif;">About Us</h1>
+      <p class="w3-text-grey">Welcome to Earist Book Store Online, your trusted source for textbooks and reading materials tailored specifically to first-year students. As you begin your academic journey, we're here to provide you with the essential books you need for your courses. Our online store offers a carefully curated selection of textbooks for a variety of courses, ensuring that you have access to the most up-to-date and relevant materials for your classes You'll find the required and recommended books in our book store. Shopping with us is simple and convenient. Browse our website to easily find the books you need by course or subject and place your order in just a few clicks. We offer secure payment options and prompt delivery to your preferred location.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="https://i.ibb.co/hmvHSZy/download.png" alt="Book" class="icon-bigger" style="width: 400px;">
+    </div>
+  </div>
+</div>
+
+<!--second grid-->
+
+<div class=" w3-light-grey w3-padding-64 w3-container">
+  <div class="title">
+    <h1>GET YOURS NOW!</h1>
+  </div>
+  <div class="image-container">
+    <img src="fildis.png" alt="Filipino sa Iba't Ibang Disiplina" class="fil-size">
+    <img src="math.png" alt="Mathematics for College Readiness" class="math-size">
+    <img src="purcom.png" alt="Communication in the Age of Globalization" class="purcom-size">
+    <img src="DMTB.png" alt="Database Management" class="dbmt-size">
+  </div>
+</div>
+<div class="w3-container w3-black w3-center w3-padding-10">
+  <h5 class="w3-margin " style="font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-weight: 600;">Life is like a book that never ends. Chapters close, but not the book itself</h5>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-grey w3-padding-30 w3-center ">  
+  <div class="w3-xlarge w3-padding-5 w3-margin-top w3-border-black">
+    <img src="https://i.ibb.co/5nwknRj/logo-ng-11.png" alt="earist book store" class="logo" style="width: 50px; opacity:inherit;">
+ </div>
+ <div>
+
+ </div class="logo">
+ 
+ <p>by: Group 11<a></a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
