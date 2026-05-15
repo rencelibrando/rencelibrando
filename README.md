@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Hello, I'm <br> **CLARENCE LIBRANDO**
+#  Hello, I'm <br> **CLARENCE LIBRANDO**
 **Mobile & Desktop Developer | 3rd Year Computer Science Student**  
 *Studying at EARIST Manila*
 
@@ -36,15 +36,10 @@ I am a passionate 3rd-year Computer Science student at EARIST Manila, specializi
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Composio](https://img.shields.io/badge/Composio.dev-FF5733?style=for-the-badge&logo=mcp&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=Espressif&logoColor=white)
-![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
 ---
 
-### 📂 Featured Projects
+### Featured Projects
 
 | Project                                   | Description                                                                                                                                                                                                       | Tech Stack            |
 | :---------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------- |
@@ -63,6 +58,6 @@ I am a passionate 3rd-year Computer Science student at EARIST Manila, specializi
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/clarence.librando)
 ---
 
-⭐ **“Code with purpose. Achieve with passion.”**
+ **“Code with purpose. Achieve with passion.”**
 
 </div>
