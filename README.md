@@ -116,7 +116,7 @@ Coursework: Data Structures and Algorithms, OOP, Operating Systems, DBMS, Comput
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=rencelibrando&show_icons=true&title_color=228B22&text_color=E6EDF3&icon_color=228B22&bg_color=0D1117&hide_border=true&count_private=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=rencelibrando&show_icons=true&theme=dark&title_color=228B22&text_color=E6EDF3&icon_color=228B22&bg_color=0D1117&hide_border=true)
 ![Streak](https://streak-stats.demolab.com?user=rencelibrando&theme=dark&background=0D1117&fire=228B22&ring=228B22&currStreakNum=228B22&currStreakLabel=228B22&sideNums=228B22&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rencelibrando&layout=compact&title_color=228B22&text_color=E6EDF3&bg_color=0D1117&hide_border=true&langs_count=8)
 
