@@ -96,11 +96,24 @@ I build end-to-end production systems — from low-latency microservices and vec
 | Project | What it does | Tech stack |
 |---|---|---|
 | [**CIVIL-LEX**](https://github.com/rencelibrando/civilex-thesis) — AI Philippine civil-law assistant (thesis)<br>[Model](https://huggingface.co/renzzyyy1028/civilex-gemma-4-e4b) · [Dataset](https://huggingface.co/datasets/renzzyyy1028/civil-code-phil) | Dual-track legal AI: grounded RAG over Civil Code RA 386 + Family Code EO 209, plus fine-tuned LLM (`civilex-gemma-4-e4b` + `civil-code-phil`). 3-tier microservice with SSE streaming, hybrid retrieval (HNSW pgvector + GIN FTS + RRF), Taglish expansion, NLI verification (RAGAS / ISO 25010). | Next.js, TypeScript, React 19, Tailwind, shadcn/ui, Node.js, Express, FastAPI, Uvicorn, Supabase, PostgreSQL, pgvector HNSW, GIN FTS, Sentence Transformers, Gemma LLM, PyTorch, RAGAS, SSE, Docker |
+| [**BioTelemetry**](https://github.com/rencelibrando/biotelemetry-health-monitoring-space) — Spaceflight crew health PWA (NASA Space Apps 2026) | Offline-first PWA and FastAPI serverless platform for orbital and deep-space crew monitoring. Features a 100 Hz Lead-II ECG oscilloscope, 12-vital simulator calibrated on 82 NASA OSDR datasets, Three.js 3D anatomical body map, live NASA DONKI space weather + ISS South Atlantic Anomaly tracking, Gemini Vision self-exam diagnostics, and Flight Surgeon AI with IndexedDB LOS sync. | React 18, TypeScript, Vite, Tailwind, Three.js, Dexie (IndexedDB), Workbox PWA, Python, FastAPI, NumPy, Supabase, PostgreSQL, Gemini API, Vercel |
 | [**infoma**](https://github.com/rencelibrando/infoma) — Smart bike rental platform | Native Kotlin rider app + React 18 admin portal. 2-sec background GPS tracking, QR unlock (Foreground Services, Play Services), geofence + fleet dashboard with offline Firebase sync. | Kotlin, Android SDK, Foreground Services, Play Services, React 18, JavaScript, Recharts, Google Maps SDK, Firebase Firestore/RTDB, HTML/CSS |
 | [**OPERATING_SYS (WordBridge)**](https://github.com/rencelibrando/OPERATING_SYS) — AI language learning | Compose desktop lessons + low-latency pronunciation feedback via ElevenLabs. Supabase/PostgreSQL schemas + procedures for lessons, progression, audio assets. | Kotlin, Compose/KMP, Python, FastAPI, Supabase, PostgreSQL, ElevenLabs API |
 | [**MediaCrush**](https://github.com/rencelibrando/MediaCrush) — Cross-platform media compressor | Multiplatform media compressor with Compose UI, non-blocking FFmpeg processing, native hardware encoder detection, real-time performance metrics, pause/resume, and task cancellation across desktop, Android, and iOS. | Kotlin, Kotlin Multiplatform, Compose Multiplatform, Kotlin Toolchain (Amper), Kotlin Coroutines, FFmpeg, JVM, Android, iOS |
 | [**Microbot**](https://github.com/rencelibrando/Microbot_iot_flood_warning) — IoT flood warning | Arduino + ESP8266 water-sensor nodes with Firebase uplink and mobile alerts. | Kotlin, Android SDK, Arduino, ESP8266, Firebase |
 | [**BudgetTracker**](https://github.com/rencelibrando/BudgetTracker) — Expense tracker | Native Android expense tracking with categories and local persistence. | Java, Android SDK, SQLite |
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:228B22,100:14532D&height=3&section=header" width="100%" />
+
+## Hackathon Experience
+
+### NASA Space Apps Challenge 2026 — [**BioTelemetry: Monitoring Human Health Beyond Earth**](https://github.com/rencelibrando/biotelemetry-health-monitoring-space)
+
+Built an **offline-first Progressive Web App (PWA) and FastAPI serverless medical edge platform** for crew biotelemetry, space-weather hazard modeling, and autonomous clinical decision support across orbital and deep-space missions (LEO, Lunar, Mars).
+
+- **NASA Data Calibration & Space Weather:** Ingested **82 NASA OSDR biomedical datasets**, **2,510 days of CCMC DONKI climatology**, and **ISS orbital telemetry** to calibrate physiological drift, South Atlantic Anomaly proton flux, and 17 fault-injection scenarios.
+- **Real-Time Telemetry & 3D Diagnostics:** Built a 100 Hz Lead-II ECG oscilloscope, interactive **Three.js 3D crew body map**, multimodal **Gemini Vision** self-exam capture, hands-free voice check-ins, and an offline-capable **Flight Surgeon AI** triage assistant.
+- **Resilient Offline-First Sync:** Implemented **IndexedDB (Dexie)** buffering and Workbox service-worker caching for uninterrupted Loss-of-Signal (LOS) operation with batch reconciliation and **Supabase Realtime** cloud sync.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:228B22,100:14532D&height=3&section=header" width="100%" />
 
@@ -140,7 +153,7 @@ Coursework: Data Structures and Algorithms, OOP, Operating Systems, DBMS, Comput
 
 **Build with intent. Ship with impact.**
 
-Full list: 12 public + 4 private + collabs — 6 highlights above.
+Full list: 12 public + 4 private + collabs — 7 highlights above.
 
 </div>
 
